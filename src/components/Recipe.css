@@ -1,0 +1,56 @@
+.food-image {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.food-details {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background: #f98365;
+  padding: 10px 20px;
+  bottom: -30%;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.food-details:hover {
+  bottom: 0;
+}
+
+.food-content {
+  position: relative;
+  margin-top: 15px;
+  color: #fff;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 15px 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn.btn-view-recipe {
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  background-color: #f9de59;
+}
+
+.btn.btn-view-recipe:hover {
+  color: #fff;
+  background-color: #f9de59;
+}

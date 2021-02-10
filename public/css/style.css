@@ -1,0 +1,43 @@
+.App {
+  min-height: 100vh;
+  background-color: #a1dffb;
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.search-form button.btn-search {
+  background-color: #f9de59;
+  color: #fff;
+  border-radius: 10px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+@media (max-width: 575px) {
+}
+
+@media (min-width: 425px) {
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+}
