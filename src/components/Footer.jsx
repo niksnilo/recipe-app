@@ -4,7 +4,7 @@ import SmoothScroll from "smooth-scroll";
 
 function Footer() {
   const scroll = new SmoothScroll('a[href*="#"]', {
-    speed: 1100,
+    speed: 2000,
     speedAsDuration: true,
   });
   return (
