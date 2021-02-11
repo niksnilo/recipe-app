@@ -1,5 +1,6 @@
-div.footer-copyright {
-  bottom: 0;
-  width: 100%;
-  background: #a1dffb;
+div.page-footer {
+  background-color: #a1dffb;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }

@@ -1,0 +1,49 @@
+.skeleton {
+  background: rgba(221, 221, 221, 0.541);
+}
+
+.skeleton.skeleton-box {
+  position: relative;
+  box-shadow: 0;
+  border-radius: 10px;
+  padding: 30px;
+  height: 300px;
+}
+
+.skeleton.skeleton-food-image {
+  background: rgba(221, 221, 221, 0.541);
+}
+
+.text-placeholder {
+  height: 20px;
+  margin-bottom: 5px;
+  margin-right: 12px;
+}
+
+.placeholder {
+  display: inline-block;
+  background-color: #b0c0c7;
+  animation-name: shine;
+  animation-duration: 2.4s;
+  animation-iteration-count: infinite;
+}
+.food-placeholder {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin-right: 12px;
+  margin-bottom: 5px;
+  background: transparent;
+}
+
+@keyframes shine {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+  100% {
+    opacity: 1;
+  }
+}

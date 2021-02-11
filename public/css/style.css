@@ -1,6 +1,10 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .App {
   min-height: 100vh;
-  background-color: #a1dffb;
+  background-color: #fff;
 }
 
 .search-form {
@@ -16,12 +20,21 @@
   padding: 10px;
   border-radius: 10px;
   outline: none;
+  background: rgba(221, 221, 221, 0.541);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 .search-form button.btn-search {
   background-color: #f9de59;
   color: #fff;
   border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+input {
+  text-indent: 10px;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

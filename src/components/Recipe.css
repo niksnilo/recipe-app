@@ -48,6 +48,8 @@ h6 {
   outline: none;
   cursor: pointer;
   background-color: #f9de59;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 .btn.btn-view-recipe:hover {
