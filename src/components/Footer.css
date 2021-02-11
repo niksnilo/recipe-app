@@ -4,3 +4,8 @@ div.page-footer {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
 }
+
+a.footer-text,
+a.footer-text:hover {
+  color: #fff;
+}

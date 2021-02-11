@@ -20,13 +20,15 @@ function Nav() {
     <BrowserRouter>
       <MDBNav className={navbar ? "nav active" : "nav"} expand="md">
         <MDBNavbarBrand>
-          <h2>
-            <strong>
-              {/* <MDBIcon icon="utensils" className="mr-3" /> */}
-              <img src={Logo} className="logo" />
-              Recipe App
-            </strong>
-          </h2>
+          <a href="/">
+            <h2>
+              <strong>
+                {/* <MDBIcon icon="utensils" className="mr-3" /> */}
+                <img src={Logo} className="logo" />
+                Recipe App
+              </strong>
+            </h2>
+          </a>
         </MDBNavbarBrand>
       </MDBNav>
     </BrowserRouter>

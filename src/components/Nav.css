@@ -24,3 +24,8 @@
   color: #fff;
   margin-right: 10px;
 }
+
+a h2,
+a h2:hover {
+  color: #fff;
+}

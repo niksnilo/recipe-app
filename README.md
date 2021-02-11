@@ -3,8 +3,7 @@
 - This project called Recipe App build with REACT
 - This React App lets you search for your favorite food recipes.
 - Live Demo ***https://niks-recipe-app.netlify.app/***
-
-- ![recipe](https://i.imgur.com/QuBojTY.png)
+  ![recipe](https://i.imgur.com/QuBojTY.png)
 
 ## What I've learned
 

@@ -46,7 +46,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App" id="home">
       <Nav />
       <div className="container">
         <div className="row">
