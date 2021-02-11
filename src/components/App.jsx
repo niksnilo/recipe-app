@@ -43,6 +43,7 @@ function App() {
     event.preventDefault();
     setQuery(search);
     setSearch("");
+    document.getElementById("input").blur();
   }
 
   return (
@@ -57,6 +58,8 @@ function App() {
                 className="search-bar"
                 value={search}
                 onChange={updateSearch}
+                id="input"
+                autoComplete="off"
               />
               <button type="submit" className="btn btn-search">
                 Search
