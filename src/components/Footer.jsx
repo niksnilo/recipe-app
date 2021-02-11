@@ -5,7 +5,6 @@ import SmoothScroll from "smooth-scroll";
 function Footer() {
   const scroll = new SmoothScroll('a[href*="#"]', {
     speed: 900,
-    speedAsDuration: true,
   });
   return (
     <div className="page-footer">
