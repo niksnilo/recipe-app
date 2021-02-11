@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 //import Ingredients from "./Ingredients";
 import "./Recipe.css";
 
@@ -10,7 +10,11 @@ function Recipe(props) {
       </div>
       <div className="food-details">
         <div className="food-content">
-          <h5>{props.title}</h5>
+          <h5>
+            {props.title.length <= 25
+              ? props.title
+              : props.title.substring(0, 25) + "..."}
+          </h5>
         </div>
         <h6>Source: {props.source}</h6>
         {/* <Fragment>
