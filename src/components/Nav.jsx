@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 import { MDBNav, MDBNavbarBrand, MDBIcon } from "mdbreact";
 import "./Nav.css";
+import Logo from "../Logo.png";
 
 function Nav() {
   const [navbar, setNavbar] = useState(false);
@@ -21,7 +22,8 @@ function Nav() {
         <MDBNavbarBrand>
           <h2>
             <strong>
-              <MDBIcon icon="utensils" className="mr-3" />
+              {/* <MDBIcon icon="utensils" className="mr-3" /> */}
+              <img src={Logo} className="logo" />
               Recipe App
             </strong>
           </h2>
